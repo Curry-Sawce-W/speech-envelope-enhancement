@@ -1,0 +1,17 @@
+
+image: continuumio/miniconda3  # Use a Miniconda Docker image
+
+pipelines:
+  default:
+    - step:
+        name: Setup Conda Environment
+        caches:
+          - conda
+        script:
+          - echo "Creating Conda environment from environment.yml"
+          - conda env create -f SEE.yml
+          - source activate myenv  # Replace 'myenv' with the name defined in your environment.yml
+          - conda info --envs
+          - python --version
+
+
