@@ -25,7 +25,6 @@ mccabe==0.7.0
 mpmath==1.3.0
 msgpack==1.1.1
 multidict==6.6.0
-networkx==3.5
 numba==0.61.2
 omegaconf==2.3.0
 pesq==0.0.4
