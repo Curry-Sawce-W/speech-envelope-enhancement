@@ -1,3 +1,1 @@
-
-
-wget --no-check-certificate 'https://docs.google.com/uc?export=download&id=1I7Tn0PMBVuID0rbISwGHvWflZCfghdjn' -O FILENAME
+wget -q -O audio http://bit.ly/2uh4s3g
